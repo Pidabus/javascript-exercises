@@ -4,9 +4,9 @@ function addNumbers() {
 
   let result;
 
-  result = "a" + "b"; // <------ EDIT THIS LINE
+  result = a + b; // <------ EDIT THIS LINE
 
-  return result;
+  return result;npm
 }
 
 // Do not change this
