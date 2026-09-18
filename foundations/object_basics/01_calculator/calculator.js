@@ -34,11 +34,11 @@ const factorial = function (num) {
 
   if (num === 0) return 1;
 
-  let limit = num;
-  for (let i = 1; i < limit; i++) {
-    num *= i;
+  let result = 1;
+  for (let i = 1; i <= num; i++) {
+    result *= i;
   }
-  return num;
+  return result;
 };
 
 // Personal quickTest
