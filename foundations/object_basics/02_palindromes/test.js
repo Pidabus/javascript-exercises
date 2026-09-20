@@ -20,5 +20,9 @@ const palindromes = function (str) {
     else return false;
 };
 
-// Do not edit below this line
-module.exports = palindromes;
+
+const result = palindromes('uzuuuuuuuu');
+console.log(result);
+
+// array = [""]
+// array.splice(size, 0, ".")
