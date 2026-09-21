@@ -1,5 +1,5 @@
 let arr = [0, 1];
-for (i = 2; i <= 25; i++) {
+for (let i = 2; i <= 25; i++) {
     let newElem = arr[i - 1] + arr[i - 2];
     arr.push(newElem);
 }
@@ -13,9 +13,11 @@ const fibonacci = function (num) {
         tempNumber = Number(tempNumber);
     }
     if (tempNumber < 0) {
-        return console.log("OOPS");
+        return "OOPS";
     }
+    return arr[tempNumber];
 };
 
+fibonacci(4);
 // Do not edit below this line
 module.exports = fibonacci;
